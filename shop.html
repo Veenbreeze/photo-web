@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="IconG">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Shop - IconG</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-snapx-photography.css">
+    <style>
+        /* Custom Styles for Shop Page */
+        .shop-section {
+            padding: 60px 0;
+            background: #f9f9f9;
+        }
+        .shop-item {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .shop-item img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .shop-item h5 {
+            margin-top: 15px;
+            font-size: 18px;
+            color: #333;
+        }
+        .shop-item .price {
+            color: #f39c12;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .shop-item .buy-button {
+            background: #f39c12;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .shop-item .buy-button:hover {
+            background: #d35400;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/3d-render-camera-icon.jpg" alt="IconG photographer">
+                        </a>
+                        <ul class="nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Me</a></li>
+                            <li><a href="categories.html">Categories</a></li>
+                            <li><a href="shop.html" class="active">Shop</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <section class="shop-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Shop Images </h2>
+                    <p>Explore our collection of premium images available for purchase.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 shop-item">
+                    <img src="images/449A0059-Recovered.jpg" alt="Image 1">
+                    <h5>Beautiful Landscape</h5>
+                    <p class="price">$15</p>
+                    <a href="payment.html" class="buy-button">Buy Now</a>
+                </div>
+                <div class="col-lg-4 col-md-6 shop-item">
+                    <img src="images/449A0074-Recovered.jpg" alt="Image 2">
+                    <h5>City Skyline</h5>
+                    <p class="price">$20</p>
+                    <a href="payment.html" class="buy-button">Buy Now</a>
+                </div>
+                <div class="col-lg-4 col-md-6 shop-item">
+                    <img src="images/449A0087-Recovered.jpg" alt="Image 3">
+                    <h5>Nature Image</h5>
+                    <p class="price">$25</p>
+                    <a href="payment.html" class="buy-button">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Modal -->
+    <div class="modal fade" id="paymentModal" tabindex="-1" role="dialog" aria-labelledby="paymentModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="paymentModalLabel">Choose Payment Method</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Select your preferred payment method:</p>
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#">Airtel Money</a></li>
+                        <li class="list-group-item"><a href="#">Halopesa</a></li>
+                        <li class="list-group-item"><a href="#">M-Pesa</a></li>
+                        <li class="list-group-item"><a href="#">Mixx by YAS</a></li>
+                        <li class="list-group-item"><a href="#">T-Pesa</a></li>
+                        <li class="list-group-item"><a href="#">Credit Card</a></li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

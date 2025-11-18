@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor's Personal Website</title>
+    <link rel="stylesheet" href="./Victor&#39;s Personal Website_files/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Victor's World</h1>
+    </header>
+    <div class="container">
+        <div class="sidebar left-sidebar">
+            <p>Navigation</p>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/about-me.html">About Me</a></li>
+                <li><a href="http://127.0.0.1:5500/projects.html">Projects</a></li>
+                <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <p>Hello! I'm <em>Victor</em>, a passionate developer.. Welcome to my personal website!</p>
+            <section id="about-me">
+                <h2>I'm Victor</h2>
+                <p>I am a software developer with a love for creating innovative solutions and exploring new technologies. In my free time, I enjoy coding, reading, and hiking.</p>
+            </section>
+            
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Programming Languages: JavaScript, Python, C#</li>
+                    <li>Web Development: HTML, CSS, React, Node.js</li>
+                    <li>Cloud Platforms: Azure, AWS</li>
+                    <li>Database Management: SQL, MongoDB</li>
+                </ul>
+            </section>
+            
+                <blockquote>
+                    <p>"Victor's ability to solve complex problems and innovate is truly impressive. Highly recommended!"</p>
+                    
+                </blockquote>
+            
+            
+        </div>
+        <div class="sidebar right-sidebar">
+
+            <p>Quick Links</p>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/blogs.html">Blog</a></li>
+                <li><a href="http://127.0.0.1:5500/github.html">GitHub</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 Victor's Personal Website.</p>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

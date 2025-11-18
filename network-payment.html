@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Network Payment Submission</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 500px;
+            background: #b88dd1;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+        h2 {
+            margin-bottom: 15px;
+            color: #333;
+            font-size: 1.5rem;
+        }
+        .form-group label {
+            font-weight: bold;
+            color: #555;
+        }
+        .btn-back {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="bg-primary text-white text-center py-3">
+        <h1>IconG Payment Portal</h1>
+    </header>
+    <div class="container">
+        <h2 class="text-center">Network Payment Submission</h2>
+        <form action="#" method="post" class="mt-3">
+            <div class="form-group">
+                <label for="networkNumber">Network Number</label>
+                <input type="text" id="networkNumber" name="networkNumber" class="form-control" placeholder="Enter Network Number" required>
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount</label>
+                <input type="number" id="amount" name="amount" class="form-control" placeholder="Enter Amount" required>
+            </div>
+            <div class="form-group">
+                <label for="payerName">Name</label>
+                <input type="text" id="payerName" name="payerName" class="form-control" placeholder="Enter Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="text" id="phoneNumber" name="phoneNumber" class="form-control" placeholder="Enter Your Phone Number" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit Payment</button>
+        </form>
+        <a href="payment.html" class="btn btn-secondary btn-block btn-back">Back to Payment Methods</a>
+    </div>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
